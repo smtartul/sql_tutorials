@@ -1,7 +1,8 @@
-`SELECT * FROM actor WHERE first_name LIKE 'P%' `
+# LIKE & ILIKE 
+<pre><code>SELECT * FROM actor WHERE first_name LIKE 'P%' </code></pre>
 > - '%' karakteri sifir,bir veya daha fazla karakteri temsil eder. Wildcard olarak isimlendirilir.
 > - '_' karakteri bir karakteri temsil eder.
 > - 'ILIKE' case - insensitive versiyondur.
 ***
-`SELECT * FROM actor WHERE first_name LIKE '%Pen%' `
-`SELECT * FROM actor WHERE first_name LIKE 'P_n%' `
+<pre><code>SELECT * FROM actor WHERE first_name LIKE '%Pen%' </code></pre>
+<pre><code>SELECT * FROM actor WHERE first_name LIKE 'P_n%' </code></pre>

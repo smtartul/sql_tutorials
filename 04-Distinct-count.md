@@ -1,10 +1,11 @@
-`SELECT DISTINCT rental_rate FROM film`
+# DISTINCT & COUNT
+<pre><code>SELECT DISTINCT rental_rate FROM film</code></pre>
 > ilgili sutundaki benzersiz verileri gosterir.
 ***
-`SELECT DISTINCT first_name,last_name FROM actor`
+<pre><code>SELECT DISTINCT first_name,last_name FROM actor</code></pre>
 ***
-`SELECT COUNT(*) FROM actor WHERE first_name='Penelope'`
+<pre><code>SELECT COUNT(*) FROM actor WHERE first_name='Penelope'</code></pre>
 > sorgu sonucu ortaya cikan verilerin sayisini gosterir.
 ***
-`SELECT COUNT(DISTINCT first_name) FROM actor`
+<pre><code>SELECT COUNT(DISTINCT first_name) FROM actor</code></pre>
 
