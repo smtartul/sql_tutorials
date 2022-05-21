@@ -9,7 +9,7 @@ this repo contains sql tasks and exercises
 4. [`psql usage`](/05-psql.md)
 5. [`order-by usage`](/06-order-by.md)
 6. [`limit-offset usage`](/07-limit-offset.md)
-7. [`psql usage`]()
+7. [`aggregate usage`](/08-aggregate-avg-sum-max-min.md)
 8. [`psql usage`]()
 9. [`psql usage`]()
 10. [`psql usage`]()
