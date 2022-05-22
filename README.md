@@ -13,3 +13,5 @@ this repo contains sql tasks and exercises
 9. [`group-by usage`](/09-group-by.md)
 10. [`having usage`](/10-having.md)
 11. [`alias usage`](/11-Alias.md)
+12. [`create-drop-insert-into usage`](/12-Create-Drop-Insert.md)
+13. [`update-delete usage`](/13-Update-Delete.md)
