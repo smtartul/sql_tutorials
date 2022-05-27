@@ -98,4 +98,8 @@ insert into employee (name, email, birthday) values ('Tanoodle', 'zlashford1d@pr
 </code></pre>
 
 <pre><code>DELETE FROM employee WHERE email LIKE '%gmail%'
+<<<<<<< HEAD
 </code></pre>
+=======
+</code></pre>
+>>>>>>> 497bb75561c22b6946c7959dba60bf079b171d34
