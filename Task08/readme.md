@@ -68,34 +68,34 @@ insert into employee (name, email, birthday) values ('Tanoodle', 'zlashford1d@pr
 ***
 > Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
 
-1. <pre><code>UPDATE employee SET name='XXX', birthday='2000-01-01', email='xx@yy.com' WHERE id=2
+<pre><code>UPDATE employee SET name='XXX', birthday='2000-01-01', email='xx@yy.com' WHERE id=2
 </code></pre>
 
-2. <pre><code>UPDATE employee SET name='XXX' WHERE id BETWEEN 11 AND 15
+<pre><code>UPDATE employee SET name='XXX' WHERE id BETWEEN 11 AND 15
 </code></pre>
 
-3. <pre><code>UPDATE employee SET name='YYY' WHERE name='XXX'
+<pre><code>UPDATE employee SET name='YYY' WHERE name='XXX'
 </code></pre>
 
-4. <pre><code>UPDATE employee SET email=NULL WHERE email LIKE '%mapy%'
+<pre><code>UPDATE employee SET email=NULL WHERE email LIKE '%mapy%'
 </code></pre>
 
-5. <pre><code>UPDATE employee SET email=NULL WHERE email LIKE '%.com'
+<pre><code>UPDATE employee SET email=NULL WHERE email LIKE '%.com'
 </code></pre>
 
 > Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
 
-1. <pre><code>DELETE FROM employee WHERE id=1
+<pre><code>DELETE FROM employee WHERE id=1
 </code></pre>
 
-2. <pre><code>DELETE FROM employee WHERE name='XXX'
+<pre><code>DELETE FROM employee WHERE name='XXX'
 </code></pre>
 
-3. <pre><code>DELETE FROM employee WHERE id BETWEEN 5 AND 10
+<pre><code>DELETE FROM employee WHERE id BETWEEN 5 AND 10
 </code></pre>
 
-4. <pre><code>DELETE FROM employee WHERE name LIKE 'A%'
+<pre><code>DELETE FROM employee WHERE name LIKE 'A%'
 </code></pre>
 
-5. <pre><code>DELETE FROM employee WHERE email LIKE '%gmail%'
+<pre><code>DELETE FROM employee WHERE email LIKE '%gmail%'
 </code></pre>
